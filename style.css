@@ -196,7 +196,13 @@ h2::after {
     margin-left: 8px;
 }
 
-/* 価格 */
+/* 価格（画面上には表示しない） */
+.menu-item .price {
+    display: none;
+}
+
+/* 価格表示用の装飾は隠しておくためコメントアウト */
+/*
 .menu-item .price {
     margin: 0;
     font-family: 'Noto Serif JP', serif;
@@ -210,6 +216,7 @@ h2::after {
     margin-right: 3px;
     font-weight: normal;
 }
+*/
 
 /* 説明文 */
 .menu-item .desc {
